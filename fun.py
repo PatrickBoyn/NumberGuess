@@ -31,4 +31,3 @@ elif beginning == "h":
             if counter == 3:
                 print("Game over.")
                 break
-            print(z)
