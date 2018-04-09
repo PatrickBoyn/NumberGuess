@@ -29,6 +29,8 @@ elif BEGINNING == "h":
             break
         else:
             print("Please try again.")
+            # For testing purposes only. 
+            print("The guess is {0} and the counter is at {1}".format(EASY, COUNTER))
             COUNTER += 1
             if COUNTER == 3:
                 print("Game over.")
