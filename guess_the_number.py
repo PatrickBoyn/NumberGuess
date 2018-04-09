@@ -3,7 +3,7 @@ import math
 
 EASY = math.floor(random.random() * 10 + 1)
 HARD = math.floor(random.random() * 20 + 1)
-COUNTER = 0
+COUNTER = 1
 
 BEGINNING = input("Please select a mode, (e)asy or (h)ard\n")
 
