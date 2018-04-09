@@ -7,13 +7,13 @@ EASY = math.floor(random.random() * 10 + 1)
 HARD = math.floor(random.random() * 20 + 1)
 COUNTER = 0
 EASY_GUESSES = 5
-
+TEST = EASY_GUESSES - COUNTER
 BEGINNING = input("Please select a mode, (e)asy or (h)ard\n")
 
 # This is easy mode. If the user picks e, then this is run. 
 if BEGINNING == "e":
     while True:
-        print("You have {} guesses to guess the right number. ".format(EASY_GUESSES -= COUNTER))
+        print("You have {} guesses to guess the right number. ".format(TEST))
         GUESS = int(input("Guess a number between 1 and 10: "))
         # Winning conditions.
         if GUESS == EASY:
