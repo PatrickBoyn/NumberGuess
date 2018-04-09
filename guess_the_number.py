@@ -1,6 +1,8 @@
 import random
 import math
 
+# PEP-8 Says that variables outside methods or classes should be
+# in all caps. 
 EASY = math.floor(random.random() * 10 + 1)
 HARD = math.floor(random.random() * 20 + 1)
 COUNTER = 0
