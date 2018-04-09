@@ -16,6 +16,8 @@ if BEGINNING == "e":
         else:
             print("Please try again.")
             COUNTER += 1
+            # For testing purposes only.
+            print("The guess is {0} and the counter is at {1}".format(EASY, COUNTER))
             if COUNTER == 5:
                 print("Game over.")
                 break
